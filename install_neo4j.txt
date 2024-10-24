@@ -16,7 +16,7 @@ source ~/.bashrc
 java -version
 
 
-cd neo4j/neo4j-community-5.24.0/
+cd neo4j/
 
 neo4j-community-5.24.0/bin/neo4j-admin database load --from-path=/home/jovyan/work/5-2-lagginhorn/ --overwrite-destination=true neo4j
 neo4j-community-5.24.0/bin/neo4j start
