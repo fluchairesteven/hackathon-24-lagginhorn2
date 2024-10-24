@@ -1,49 +1,22 @@
-    1  ls
-    2  cd ..
-    3  ls
-    4  cd ..
-    5  ls
-    6  cd ..
-    7  ls
-    8  pwd
-    9  cd ..
-   10  ls
-   11  cd opt/
-   12  cd ..
-   13  pwd
-   14  ls
-   15  cd home/
-   16  cd jovyan/
-   17  pwd
-   18  ls
-   19  wget https://dist.neo4j.org/neo4j-community-5.24.0-unix.tar.gz
-   20  mkdir neo4j
-   21  tar -xvzf neo4j-community-5.24.0-unix.tar.gz -C ~/neo4j
-   22  cd neo4j
-   23  ls
-   24  cd neo4j-community-5.24.0/
-   25  bin/neo4j console
-   26  cd ..
-   27  wget https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_linux_hotspot_17.0.4_8.tar.gz
-   28  mkdir -p jdk
-   29  tar -xvzf OpenJDK17U-jdk_x64_linux_hotspot_17.0.4_8.tar.gz -C ~/jdk
-   30  nano ~/.bashrc
-   31  vim .bashrc 
-   32  source ~/.bashrc
-   33  java -version
-   34  cd neo4j/neo4j-community-5.24.0/
-   35  bin/neo4j console
-   36  xxx
-   37  bin/neo4j console
-   38  cd ..
-   39  neo4j-admin load --from=/home/jovyan/work/5-2-lagginhorn/neo4j.dump --database=neo4j --force
-   40  neo4j-community-5.24.0/bin/neo4j-admin load --from=/home/jovyan/work/5-2-lagginhorn/neo4j.dump --database=neo4j --force
-   41  neo4j-community-5.24.0/bin/neo4j-admin database load --from=/home/jovyan/work/5-2-lagginhorn/neo4j.dump --database=neo4j --force
-   42  neo4j-admin database load --from-path=/home/jovyan/work/5-2-lagginhorn/ --database=neo4j --overwrite-destination=true
-   43  neo4j-community-5.24.0/bin/neo4j-admin database load --from-path=/home/jovyan/work/5-2-lagginhorn/ --database=neo4j --overwrite-destination=true
-   44  neo4j-community-5.24.0/bin/neo4j-admin database neo4j.dump load --from-path=/home/jovyan/work/5-2-lagginhorn/ --database=neo4j --overwrite-destination=true
-   45  neo4j-community-5.24.0/bin/neo4j-admin database load --from-path=/home/jovyan/work/5-2-lagginhorn/ --overwrite-destination=true neo4j
-   46  neo4j-community-5.24.0/bin/neo4j start
-   47  neo4j-community-5.24.0/bin/neo4j restart
-   48  history > start.sh
-   49  history > /home/jovyan/work/hackathon-24-lagginhorn2/install_neo4j.txt
+cd
+wget https://dist.neo4j.org/neo4j-community-5.24.0-unix.tar.gz
+mkdir neo4j
+tar -xvzf neo4j-community-5.24.0-unix.tar.gz -C ~/neo4j
+wget https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4%2B8/OpenJDK17U-jdk_x64_linux_hotspot_17.0.4_8.tar.gz
+mkdir -p jdk
+tar -xvzf OpenJDK17U-jdk_x64_linux_hotspot_17.0.4_8.tar.gz -C ~/jdk
+
+nano ~/.bashrc
+
+===>
+export JAVA_HOME=~/jdk/jdk-17.0.4+8
+export PATH=$JAVA_HOME/bin:$PATH
+
+source ~/.bashrc
+java -version
+
+
+cd neo4j/neo4j-community-5.24.0/
+
+neo4j-community-5.24.0/bin/neo4j-admin database load --from-path=/home/jovyan/work/5-2-lagginhorn/ --overwrite-destination=true neo4j
+neo4j-community-5.24.0/bin/neo4j start
