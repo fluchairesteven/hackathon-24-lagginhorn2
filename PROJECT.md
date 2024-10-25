@@ -1,20 +1,14 @@
-# Planning
+# Project links
 
-1. Data collection and access
+https://zenodo.org/records/13920293
+https://democrasci.jkminder.ch/
+https://www.datascience.ch/projects/democrasci
+https://www2.sg.ethz.ch/projects/sdsc/
+https://onlinelibrary.wiley.com/doi/10.1111/spsr.12590
 
-2. Impact Analysis
-
-3. Knowledge Graph Enrichment
-
-4. Visual Exploration Dashboard
-
-- Next week there is a vote, help me decide - e.g. for sports show distribution of political parties
-
-5. Reusability and Next Steps
-
-- 1 minute to present and then walk-around demo
-- Share documentation via public GitHub
-
+https://www.parlament.ch/de/organe-home
+https://www.ch.ch/en/political-system/parliament/swiss-parliament/#further-information
+https://juniorparl.ch/index.php/de/basiswissen?view=article&id=47&catid=15
 
 # Docker setup
 
@@ -26,17 +20,7 @@ https://neo4j.com/docs/operations-manual/current/backup-restore/restore-dump/
 You'll want to know how to stop and start a database:
 https://neo4j.com/docs/operations-manual/current/database-administration/standard-databases/create-databases/
 
-# Coding docs for our project
-
-https://zenodo.org/records/13920293
-https://democrasci.jkminder.ch/
-https://www.datascience.ch/projects/democrasci
-https://www2.sg.ethz.ch/projects/sdsc/
-https://onlinelibrary.wiley.com/doi/10.1111/spsr.12590
-
-https://www.parlament.ch/de/organe-home
-https://www.ch.ch/en/political-system/parliament/swiss-parliament/#further-information
-https://juniorparl.ch/index.php/de/basiswissen?view=article&id=47&catid=15
+# Neo4j setup
 
 https://neo4j.com/docs/cypher-manual/current/queries/basic/
 https://renku.notion.site/How-to-create-a-Streamlit-app-on-top-of-your-project-in-Renku-2-0-815f09a34f384396ab1f758db4110f46
@@ -56,17 +40,7 @@ https://neo4j.com/knowledge-graphs-practitioners-guide/
 A custom Neo4j procedure that allows SPARQL-within-SQL queries to be returned in Neo4j
 https://github.com/danielhmills/virtuoso-to-neo4j-handler
 
-# Alternative graph databases
-
-https://spark.apache.org/graphx/
-
-https://github.com/indradb/indradb
-
-https://docs.rs/oxigraph/latest/oxigraph/
-
-https://github.com/surrealdb/surrealdb?tab=readme-ov-file#tables-documents-and-graph
-
-# AI support
+# GenAI support
 
 https://python.langchain.com/docs/integrations/providers/neo4j/
 
@@ -82,7 +56,7 @@ https://github.com/docker/genai-stack
 
 https://neo4j.com/labs/genai-ecosystem/llm-graph-builder/
 
-# Open specs and formats
+# Open specs and alternatives
 
 An open source, standard data file format for graph data storage and retrieval
 https://graphar.apache.org/
@@ -94,4 +68,12 @@ https://github.com/apache/incubator-graphar/blob/main/maven-projects/spark/READM
 
 Convert Neo4j data to NebulaGraph
 https://docs.nebula-graph.io/3.8.0/import-export/nebula-exchange/use-exchange/ex-ug-import-from-neo4j/
+
+https://spark.apache.org/graphx/
+
+https://github.com/indradb/indradb
+
+https://docs.rs/oxigraph/latest/oxigraph/
+
+https://github.com/surrealdb/surrealdb?tab=readme-ov-file#tables-documents-and-graph
 
