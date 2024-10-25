@@ -47,7 +47,15 @@ An Exploration Dashboard was developed in Python using the Streamlit platform.
 
 Find links used to develop this in [PROJECT.md](PROJECT.md)
 
-### 3. Reusability and Next Steps
+### 3. Streamlit dashboard
+Run 
+```bash
+pip install requiments.txt
+cd streamlit_app
+streamlit run Presentation.py
+```
+
+### 4. Reusability and Next Steps
 
 To make our findings accessible and engaging, we started to develop a dashboard or web application for visualization. This tool allows users to explore the enriched knowledge graph, gaining valuable insights into the impact of parliamentary decisions. 
 
