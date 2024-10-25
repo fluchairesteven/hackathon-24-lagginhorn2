@@ -1,20 +1,4 @@
-# Planning
-
-1. Data collection and access
-
-2. Impact Analysis
-
-3. Knowledge Graph Enrichment
-
-4. Visual Exploration Dashboard
-
-- Next week there is a vote, help me decide - e.g. for sports show distribution of political parties
-
-5. Reusability and Next Steps
-
-- 1 minute to present and then walk-around demo
-- Share documentation via public GitHub
-
+Notes on project setup.
 
 # Docker setup
 
