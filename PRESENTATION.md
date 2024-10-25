@@ -5,10 +5,15 @@
 _“Kümmern Sie sich um meine Region? Bien sûr, la tua e tutte le altre, ed da tut la Svizra”_
 
 ⛹️ **Simon, Adrien, Steven, Nejma, Oleg**
+👨🏼‍🔬 **Luis**
 
 ---
 
-`Challenge:` improve understanding of **Swiss parliamentary decisions** using **Open Research Data** & shared platforms for **Data Science**.
+`Challenge:` improve understanding of **Swiss parliamentary decisions** using **Open Research Data** & shared platforms for **Data Science**
+
+`Documentation:` [README](https://github.com/fluchairesteven/hackathon-24-lagginhorn2?tab=readme-ov-file#exploring-and-visualizing-regional-politics-in-switzerland)
+
+`Demo:` [Dashboard](https://linguistic-adelice-dribdat-3c0ba4e2.koyeb.app/)
 
 ---
 
@@ -54,6 +59,12 @@ _However: the political process has **many actors** and **complex interrelations
 ![DemocraSci logo](https://hackmd.io/_uploads/H150QkteJl.png)
 
 _This issue was addressed by the DemocraSci open science project led by the SDSC._
+
+---
+
+## 📽️ Demo
+
+[![screenshot](https://hackmd.io/_uploads/Sk6YDDFgyx.jpg)](https://linguistic-adelice-dribdat-3c0ba4e2.koyeb.app/)
 
 ---
 
