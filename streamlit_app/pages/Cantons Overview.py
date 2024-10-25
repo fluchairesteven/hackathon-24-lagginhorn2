@@ -6,7 +6,7 @@ import pandas as pd
 import branca
 
 # Load GeoJSON file
-gdf = gpd.read_file("C:/Users/simard/Documents/hackaton/swissBOUNDARIES3D_1_3_TLM_KANTONSGEBIET.geojson")
+gdf = gpd.read_file("swissBOUNDARIES3D_1_3_TLM_KANTONSGEBIET.geojson")
 
 # Load CSV data
 df = pd.read_csv("uc1_9713.csv")
